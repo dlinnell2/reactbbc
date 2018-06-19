@@ -9,7 +9,7 @@ export default {
             params: {
                 'api-key': "c15b92fa39a44bf189d243dcc60bdefa",
                 'sort': "newest",
-                'fl': "web_url, headline, pub_date",
+                'fl': "web_url, headline, pub_date, snippet",
                 'page': '0'
             }
         });

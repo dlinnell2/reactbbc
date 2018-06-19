@@ -1,0 +1,16 @@
+.card {
+    width: 100%
+}
+
+a {
+    color: black
+}
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    text-align: center
+}
