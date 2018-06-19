@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import API from "../../utils/api";
+import Saved from "../../components/SavedArticles"
 
 class Home extends Component {
+
+    state = {
+        articles:[]
+    }
 
     componentDidMount(){
         this.getArticles();
@@ -9,12 +14,14 @@ class Home extends Component {
 
     getArticles = () => {
         API.getArticles()
-            .then( (res) => console.log(res));
+            .then( (res) => this.setState({
+                articles: res
+            }));
     }
 
     render(){
         return (
-            <h1> hello </h1>
+            <Saved />
         )
     }
 }

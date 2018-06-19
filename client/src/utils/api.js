@@ -10,7 +10,7 @@ export default {
                 'api-key': "c15b92fa39a44bf189d243dcc60bdefa",
                 'sort': "newest",
                 'fl': "web_url, headline, pub_date",
-                'page': 0
+                'page': '0'
             }
         });
     }
